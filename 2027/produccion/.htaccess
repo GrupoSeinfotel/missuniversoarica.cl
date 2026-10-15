@@ -1,0 +1,26 @@
+
+<FilesMatch \.php$>
+        SetHandler proxy:fcgi://andrekis-php81
+</FilesMatch>
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^casting(?:/index\.(?:php|html))?/?$ /#casting [R=302,L,NE]
+RewriteRule ^sponsors(?:/index\.(?:php|html))?/?$ /#sponsors [R=302,L,NE]
+RewriteRule ^sponsor(?:/index\.(?:php|html))?/?$ /#sponsor-contacto [R=302,L,NE]
+RewriteRule ^sobre-nosotros(?:/index\.(?:php|html))?/?$ /#certamen [R=302,L,NE]
+RewriteRule ^descubre-arica(?:/index\.(?:php|html))?/?$ /#arica [R=302,L,NE]
+RewriteRule ^beneficios(?:/index\.(?:php|html))?/?$ /#camino [R=302,L,NE]
+RewriteRule ^datospresentacion(?:/index\.(?:php|html))?/?$ /#panel [R=302,L,NE]
+RewriteRule ^candidata/laura\-riquelme\-cayuleo\-9y6/?$ /#legado-perfil/cmlk8x21h0003gerkutyqwd53 [R=302,L,NE]
+RewriteRule ^candidata/tamara\-del\-carmen\-vergara\-vergara\-vkc/?$ /#legado-perfil/cmloa2huw004rgexocsybvjnj [R=302,L,NE]
+RewriteRule ^candidata/rayen\-millarau\-coscio\-pizarro\-\-l7x/?$ /#legado-perfil/cmlsv1spl000xge2cfm8aorir [R=302,L,NE]
+RewriteRule ^candidata/sofia\-belen\-fredes\-gutierrez\-a7g/?$ /#legado-perfil/cmlvq05rs005jgeb4z3n6yvle [R=302,L,NE]
+RewriteRule ^candidata/camila\-xiomara\-ros\-chilcumpa\-\-8ds/?$ /#legado-perfil/cmm4bybrf00mfgeb4p9fn1kzh [R=302,L,NE]
+RewriteRule ^candidata/silvia\-josely\-muos\-donozo\-5aq/?$ /#legado-perfil/cmmcokz80002bge7gaq6vwbjz [R=302,L,NE]
+RewriteRule ^candidata/scarlette\-arely\-mesina\-rojas\-\-ve2/?$ /#legado-perfil/cmmdgmb1o003nge7gs91matyl [R=302,L,NE]
+RewriteRule ^candidata/nicol\-estefana\-noem\-viveros\-navarro\-kea/?$ /#legado-perfil/cmmki79iw005ugef0zo4vl9zp [R=302,L,NE]
+RewriteRule ^candidata/nayareth\-elizabeth\-sandoval\-seplveda\-\-qqf/?$ /#legado-perfil/cmmts87ns010mgegkp57r9vax [R=302,L,NE]
+RewriteRule ^candidata/liz\-rivera\-5s5/?$ /#legado-perfil/cmnb3yj7o000bgewsfoc8jwyq [R=302,L,NE]
+</IfModule>
