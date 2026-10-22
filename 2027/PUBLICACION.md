@@ -48,3 +48,7 @@ Los detalles de subida y comprobación están en `manifiesto-publicacion-2027.js
 17 pruebas funcionales aprobadas en base aislada. Comprobaciones de sintaxis PHP/JavaScript, versión de escritorio y 390 px, archivos históricos, fotos y navegación pública. En el servidor se verificaron API, almacenamiento privado, formatos de archivo disponibles, redirecciones y bloqueo de accesos administrativos anónimos. No se enviaron registros de prueba a la base de producción ni se hicieron cobros.
 
 Iquique y sus aplicaciones no se modificaron ni se publicaron.
+
+## Superadministración
+
+El único superadministrador de Arica 2027 es seinfotel.com@gmail.com. Su contraseña fue definida por el titular y no se guarda en este documento. El rol admite un solo usuario por sitio.

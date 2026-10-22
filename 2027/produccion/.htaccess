@@ -24,3 +24,10 @@ RewriteRule ^candidata/nicol\-estefana\-noem\-viveros\-navarro\-kea/?$ /#legado-
 RewriteRule ^candidata/nayareth\-elizabeth\-sandoval\-seplveda\-\-qqf/?$ /#legado-perfil/cmmts87ns010mgegkp57r9vax [R=302,L,NE]
 RewriteRule ^candidata/liz\-rivera\-5s5/?$ /#legado-perfil/cmnb3yj7o000bgewsfoc8jwyq [R=302,L,NE]
 </IfModule>
+
+# Revalidate the homepage so scripts and styles belong to the same release.
+<IfModule mod_headers.c>
+<FilesMatch "^(index|slider-revision)\.html$">
+Header always set Cache-Control "no-store, max-age=0"
+</FilesMatch>
+</IfModule>
